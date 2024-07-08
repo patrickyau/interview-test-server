@@ -6,7 +6,8 @@ from flask_cors import CORS
 
 from api.error_handlers import format_error
 from api.tax_calculator.controllers import (
-    get_tax_brackets
+    get_tax_brackets,
+    calculate_tax_amount
 )
 
 
