@@ -17,7 +17,8 @@ def get_unreliable_brackets(tax_year):
     #     raise Exception("Database not found!")
 
     return get_tax_brackets(tax_year)
-    
+
+# Calculate tax amount based on the tax year and income
 def calculate_tax_amount(tax_year, income):
     brackets = get_tax_brackets(tax_year)
     taxPerBracket = []
